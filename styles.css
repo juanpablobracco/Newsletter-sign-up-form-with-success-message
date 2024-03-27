@@ -80,6 +80,16 @@ input {
     margin-top: 20px;
 
 }
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: var(--Grey);
+  
+}
+input[type="submit"].btn:hover {
+    border: 1px solid black;
+    background-color: var(-Tomato)
+}
 
 /* #signup_submit {
   width: fit-content;
