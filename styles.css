@@ -1,0 +1,138 @@
+:root {
+
+--Tomato: hsl(4, 100%, 67%);
+--DarkSlate-Grey: hsl(234, 29%, 20%);
+--Charcoal-Grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+/* ## Typography */
+--Font-size: 16px;
+--Family-font: [Roboto](https://fonts.google.com/specimen/Roboto);
+--Weights: 400, 700;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+/*desktop */
+main {
+    background-color: var(--Charcoal-Grey);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', serif;
+
+}
+.container{
+  width: 1000px;
+  height: 600px;
+  background-color: var(--White);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+
+  font: "roboto";
+}
+
+
+/**/
+.container_signup {
+  width: 50%;
+  margin: 80px 70px 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+ul {
+    list-style-image: url("assets/images/icon-list.svg");
+    margin: 0 30px 0 30px;
+}
+
+li {
+    margin-top: 10px;
+}
+/**/
+
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+/* #signup_submit {
+  width: fit-content;
+} */
+
+/**/
+.container_background {
+  width: 50%;
+  margin: 20px;
+  border-radius: 5%;
+  background-image: url(assets/images/illustration-sign-up-desktop.svg);
+}
+/**/
+.container_signup_check {
+  display: none;
+  width: 100%;
+  margin: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container_signup_check h1 {
+  font-size: 2.5rem;
+}
+.container_signup_check p {
+  font-size: 0.9rem;
+  
+}
+
+.container_signup_check svg {
+  transform: scale(0.7);
+}
+
+/**/
+
+@media (max-width: 375px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+}
+
+
+
+/* - Desktop: 1440px x 900*/
+
+/* - Mobile: 375px */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
