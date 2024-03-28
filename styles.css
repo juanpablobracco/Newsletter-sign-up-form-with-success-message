@@ -80,16 +80,37 @@ input {
     margin-top: 20px;
 
 }
+
 .btn {
-    cursor: pointer;
-    border: none;
-    background-color: var(--Grey);
-  
+  cursor: pointer;
+  border: none;
+  background-color: var(--DarkSlate-Grey);
+  color: var(--White);
+
+
+
 }
 input[type="submit"].btn:hover {
-    border: 1px solid var(--Tomato);
-    background-color: var(--Tomato);
-    box-shadow: 0px 0px 30px var(--Tomato);
+  border: 1px solid var(--Tomato);
+  background-color: var(--Tomato);
+  box-shadow: 0px 0px 30px var(--Tomato);
+  color: var(--White);
+  font-weight: 700;
+  cursor: pointer;;
+}
+
+.label_error {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+
+}
+
+.label_error p {
+
+  color: var(--Tomato);
+
 }
 
 /* #signup_submit {
