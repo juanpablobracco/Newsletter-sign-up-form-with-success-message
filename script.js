@@ -8,7 +8,9 @@ document.getElementById('form').addEventListener('submit', (Event) => {
 
     if (email.trim() === '') {
         error.textContent = 'Please fill the field';
-        document.getElementById('email').style.backgroundcolor = 'hsl(4, 100%, 67%)';
+        document.getElementById('email').style.backgroundColor = 'hsla(4, 92%, 75%, 0.26)';
+        document.getElementById('email').style.borderColor = 'hsl(4, 100%, 67%)';
+        document.getElementById('email').style.color = 'hsl(4, 100%, 67%)';
 
     } else {
         error.textContent = ''; //Clear previous error
